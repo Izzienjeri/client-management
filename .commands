@@ -1,0 +1,52 @@
+psql -U postgres -h localhost
+psql -U postgres -h localhost -d izzieops - to view the database
+
+Once connected, you can view tables with \dt
+
+
+
+
+flask db init  # Run this only once to initialize migrations
+flask db migrate -m "Initial migration."
+
+flask db upgrade
+
+
+SELECT * FROM employees;
+SELECT * FROM onboarding_documents;
+SELECT * FROM policies;
+SELECT * FROM welcome_emails;
+
+\c 
+
+DELETE FROM table_name
+dashboard template - https://themewagon.com/theme-framework/tailwind-css/
+
+
+nvm install --lts
+nvm use --lts
+
+yarn create next-app my-app
+
+cd my-app
+
+
+yarn install
+
+
+# To start the development server
+yarn dev
+
+# To build the project for production
+yarn build
+
+# To start the production server
+yarn start
+
+yarn add <package-name>
+yarn remove <package-name>
+
+yarn upgrade
+
+
+rm -rf ~/.npm/
