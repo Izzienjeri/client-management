@@ -1,6 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 
-db = SQLALchemy()
+db = SQLAlchemy()
 
 class Client(db.Model):
     id = db.Column(db.Integer, primary_key=True)
